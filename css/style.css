@@ -1,5 +1,37 @@
 #header {
   position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-top: 20px;
 }
+
+#nav-bar {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 30px;
+  
+}
+
+#header-img {
+  width: 500px;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+iframe {
+  display: block;
+  margin-top: 500px;
+}
+
+
 @media screen and (max-width: 480px) {
 }
