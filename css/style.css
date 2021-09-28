@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Stick+No+Bills&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Stick+No+Bills&display=swap");
 
 html {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 
 #header {
   position: fixed;
@@ -19,7 +18,6 @@ html {
   height: 98px;
   box-shadow: 0px 5px 5px 10px rgba(192, 192, 192, 0.514);
 }
-
 
 hr {
   width: 100%;
@@ -59,7 +57,7 @@ a:hover {
   flex-direction: column;
   height: 100vh;
   z-index: 1;
-  font-family: 'Stick No Bills', sans-serif;
+  font-family: "Stick No Bills", sans-serif;
 }
 iframe {
   height: 50%;
@@ -69,12 +67,41 @@ iframe {
 }
 
 #MainSection h1 {
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 #MainSection h3 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
+form {
+  width: fit-content;
+  margin: auto;
+}
+#email {
+  display: block;
+  outline: none;
+  border: 2px black solid;
+  border-radius: 5px;
+  font-size: 20px;
+  /* background-color: rgb(121, 103, 103); */
+  padding: 10px 15px;
+  text-align: center;
+}
+#submit {
+  margin-left: 50%;
+  transform: translatex(-50%);
+  font-size: 20px;
+  padding: 5px 30px;
+  margin-top: 10px;
+  background-color: rgb(238, 144, 4);
+  border: 0px;
+  border-radius: 5px;
+}
+#submit:hover {
+  box-shadow: 1px 10px 10px 20px rgba(192, 192, 192, 0.644);
+  background-color: rgb(134, 39, 2);
+  color: white;
+  cursor: pointer;
+}
 @media screen and (max-width: 480px) {
 }
