@@ -8,14 +8,19 @@
   box-sizing: border-box;
   padding-top: 20px;
 }
-
+hr {
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 90px;
+  border: 2px solid black;
+}
 #nav-bar {
   width: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   font-size: 30px;
-  
 }
 
 #header-img {
@@ -25,13 +30,24 @@
 
 a {
   text-decoration: none;
+  color: rgb(49, 53, 34);
 }
-
+a:hover {
+  color: rgb(110, 4, 4);
+  font-size: 35px;
+  /* text-decoration: underline; */
+}
+#MainSection {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
 iframe {
+  height: 100%;
   display: block;
-  margin-top: 500px;
 }
-
 
 @media screen and (max-width: 480px) {
 }
